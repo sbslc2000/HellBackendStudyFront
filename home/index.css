@@ -1,0 +1,45 @@
+
+html,body {
+    min-height:100vw;
+}
+.wrapper-center {
+    position:relative;
+    margin: 0 auto;
+    width:300px;
+    min-height:100%;
+    padding-bottom:60px;
+}
+
+#header {
+    box-sizing: border-box;
+    height:40px;
+    width:300px;
+    font-size:20px;
+    line-height:50px;
+    position:fixed;
+    background-color:white;
+    top:0;
+    border-bottom: 1px solid gray;
+}
+
+hr {
+    margin:0;
+}
+
+
+
+#header-padding {
+    margin-top:0;
+    height:30px;
+}
+
+#footer {
+    border-top: 1px solid gray;
+    position:fixed;
+    height:60px;
+    width:300px;
+    color: #8a8c8f;
+    background-color: #eee;
+    bottom:0;
+    margin-bottom:0;
+}
