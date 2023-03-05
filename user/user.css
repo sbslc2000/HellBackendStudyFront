@@ -1,13 +1,15 @@
 
 html,body {
     min-height:100vw;
+    background-color:darkgray;
 }
 .wrapper-center {
     position:relative;
     margin: 0 auto;
     width:300px;
     min-height:100%;
-    padding-bottom:60px;
+    padding-bottom:40px;
+    background-color:white;
 }
 
 #header {
@@ -23,7 +25,7 @@ html,body {
     position:fixed;
     background-color:white;
     top:0;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 #header-username {
@@ -31,6 +33,9 @@ html,body {
 }
 
 #header-setting {
+    width:25px;
+    left:5px;
+    top:7px;
     position:absolute;
 }
 
@@ -45,13 +50,3 @@ hr {
     height:30px;
 }
 
-#footer {
-    border-top: 1px solid gray;
-    position:fixed;
-    height:60px;
-    width:300px;
-    color: #8a8c8f;
-    background-color: #eee;
-    bottom:0;
-    margin-bottom:0;
-}

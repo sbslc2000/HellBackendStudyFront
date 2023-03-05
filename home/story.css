@@ -1,8 +1,8 @@
 .story-section{
     height:60px;
-    background-color:#eee;
+    background-color:#fafafa;
     box-sizing: border-box;
-    border-bottom : 1px solid gray;
+    border-bottom : 1px solid #dbdbdb;
     display:flex;
     flex-direction: row;
     padding-left:10px;

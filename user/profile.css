@@ -3,18 +3,20 @@
     flex-direction: row;
     background-color:white;
     padding:10px;
+
 }
 
 #profile-topper-img {
     width:60px;
     height:60px;
     border-radius:30px;
-    border: 1px solid grey;
+    border: 1px solid #dbdbdb;
 }
 
 #profile-topper-info {
     padding:7px;
     margin-left:10px;
+
 }
 
 #profile-topper-info-name {
@@ -35,11 +37,13 @@
     margin-top:10px;
     border: 0px;
     border-radius:3px;
-    background-color:lightgray;
+    background-color:#efefef;
 }
 
 #profile-content {
     padding-bottom: 10px;
+    padding-left:10px;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 #profile-content-name {
@@ -55,6 +59,7 @@
     display:flex;
     flex-direction: row;
     padding: 10px 0px;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 .profile-bottom-item {

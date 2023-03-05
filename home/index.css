@@ -1,8 +1,10 @@
 
 html,body {
     min-height:100vw;
+    background-color:darkgray;
 }
 .wrapper-center {
+    background-color:white;
     position:relative;
     margin: 0 auto;
     width:300px;
@@ -19,7 +21,7 @@ html,body {
     position:fixed;
     background-color:white;
     top:0;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dbdbdb;
 }
 
 hr {
@@ -34,7 +36,7 @@ hr {
 }
 
 #footer {
-    border-top: 1px solid gray;
+    border-top: 1px solid #dbdbdb;
     position:fixed;
     height:60px;
     width:300px;
